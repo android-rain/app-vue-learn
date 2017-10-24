@@ -107,8 +107,10 @@ p:before {
 }
 
 #editor {
+  margin-top: 20px;
   height: 300px;
   position: relative;
   padding-top: 150px;
+  background-image: linear-gradient(top, #e35885, #e8608d);
 }
 </style>
