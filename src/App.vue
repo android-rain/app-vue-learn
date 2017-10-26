@@ -5,13 +5,18 @@
 </template>
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+
+  mounted: function() {
+    this.$router.push('/')
+  }
 }
 </script>
 <style>
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {

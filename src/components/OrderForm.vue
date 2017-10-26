@@ -60,7 +60,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 form {
   width: 100%;
   background-color: rgb(97, 161, 188);
