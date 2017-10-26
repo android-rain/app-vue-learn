@@ -15,14 +15,14 @@
     <ul v-if="layout == 'grid'" class="grid">
         <!-- A view with big photos and no text -->
         <li v-for="a in articles" :key="a.key">
-            <a v-bind:href="a.url" target="_blank"><img v-bind:src="a.image.large" /></a>
+            <a v-bind:href="a.url" target="_blank"><img v-bind:src="a.image" /></a>
         </li>
     </ul>
 
     <ul v-if="layout == 'list'" class="list">
         <!-- A compact view smaller photos and titles -->
         <li v-for="a in articles" :key="a.key">
-            <a v-bind:href="a.url" target="_blank"><img v-bind:src="a.image.small" /></a>
+            <a v-bind:href="a.url" target="_blank"><img v-bind:src="a.image" /></a>
             <p>{{a.title}}</p>
         </li>
     </ul>
